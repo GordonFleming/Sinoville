@@ -2,27 +2,18 @@
 
 The default [Sapper](https://github.com/sveltejs/sapper) template, available for Rollup and webpack.
 
-
 ## Getting started
-
 
 ### Using `degit`
 
 [`degit`](https://github.com/Rich-Harris/degit) is a scaffolding tool that lets you create a directory from a branch in a repository. Use either the `rollup` or `webpack` branch in `sapper-template`:
 
 ```bash
-# for Rollup
+# for Rollup (Used for this site)
 npx degit "sveltejs/sapper-template#rollup" my-app
 # for webpack
 npx degit "sveltejs/sapper-template#webpack" my-app
 ```
-
-
-### Using GitHub templates
-
-Alternatively, you can use GitHub's template feature with the [sapper-template-rollup](https://github.com/sveltejs/sapper-template-rollup) or [sapper-template-webpack](https://github.com/sveltejs/sapper-template-webpack) repositories.
-
-
 ### Running the project
 
 However you get the code, you can install dependencies and run the project in development mode with:
@@ -41,7 +32,6 @@ Consult [sapper.svelte.dev](https://sapper.svelte.dev) for help getting started.
 ## Structure
 
 Sapper expects to find two directories in the root of your project —  `src` and `static`.
-
 
 ### src
 
@@ -85,15 +75,18 @@ Sapper uses Rollup or webpack to provide code-splitting and dynamic imports, as 
 
 To start a production version of your app, run `npm run build && npm start`. This will disable live reloading, and activate the appropriate bundler plugins.
 
-You can deploy your application to any environment that supports Node 10 or above. As an example, to deploy to [Vercel Now](https://vercel.com) when using `sapper export`, run these commands:
+### Netlify
 
-```bash
-npm install -g vercel
-vercel
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c88849fc-9a22-48a4-a7c8-8119cdc8a273/deploy-status)](https://app.netlify.com/sites/stoic-davinci-83351f/deploys)
+
+**Build command**
 ```
-
-If your app can't be exported to a static site, you can use the [now-sapper](https://github.com/thgh/now-sapper) builder. You can find instructions on how to do so in its [README](https://github.com/thgh/now-sapper#basic-usage).
-
+npm run export
+```
+**Publish directory**
+```
+__sapper__/export
+```
 
 ## Using external components
 
@@ -106,6 +99,22 @@ npm install -D @sveltejs/svelte-virtual-list
 ```
 
 
-## Bugs and feedback
+## Notes:
 
-Sapper is in early development, and may have the odd rough edge here and there. Please be vocal over on the [Sapper issue tracker](https://github.com/sveltejs/sapper/issues).
+#### For use of SvelteStrap:
+Due to server side rendering through Sapper, import syntax as such
+```javascript
+<script>
+  import Button from 'sveltestrap/src/Button.svelte';
+  import Col from 'sveltestrap/src/Col.svelte';
+  import Row from 'sveltestrap/src/Row.svelte';
+</script>
+```
+
+and not like,
+
+```javascript
+<script>
+  import { Button, Col, Row } from 'sveltestrap';
+</script>
+```

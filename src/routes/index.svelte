@@ -33,7 +33,7 @@
 </style>
 
 <script>
-    import { Button } from 'sveltestrap';
+    import Button from 'sveltestrap/src/Button.svelte';
     const handleClick = () => alert('I warned you!');
     let name = "Gordon";
 </script>
