@@ -33,20 +33,13 @@
 </style>
 
 <script>
-    import Button from 'sveltestrap/src/Button.svelte';
-    const handleClick = () => alert('I warned you!');
-    let name = "Gordon";
+    
 </script>
 
 <svelte:head>
-	<title>Sapper project template</title>
+	<title>Home | Sinoville Church</title>
 </svelte:head>
 
-{#if name == "Gordon"}
-    <h1>Great success!</h1>
-{:else}
-<h1>Not success!</h1>
-{/if}
 
 <figure>
 	<img alt='Success Kid' src='successkid.jpg'>
@@ -54,7 +47,3 @@
 </figure>
 
 <p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
-
-<div>
-    <Button color="danger" on:click={handleClick}>Do Not Press</Button>
-</div>
