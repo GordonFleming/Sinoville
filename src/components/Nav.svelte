@@ -1,35 +1,42 @@
 <script>
-    //export let segment;
+    let domName = '';
+    function changeName(name) {
+        domName = name;
+    }
+    function scrollDom(event) {
+        document.getElementById(domName).scrollIntoView({ behavior: 'smooth', block: 'center' })
+    }
 </script>
 
 <style>
 nav{
     background-color: #6288CF;
-    padding-top: 1.5rem;
-    padding-bottom: 1rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
     padding-right: 5rem;
-    border-bottom: 1vh solid #004E89;
+    border-bottom: 0.4vh solid #004E89;
 }
 a{
-    font-size: 24px;
+    font-size: 20px;
+    color: #012646;
 }
 .navbar-brand{
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 40px;
     padding-left: 3rem;
 }
-#prime{
-    color: #012646;
-}
 li a:hover{
-    position: static;
-    border-bottom: 0.2rem solid #004E89;
+    font-size: 20.5px;
+}
+
+.nav-link{
+    margin-left: 2rem;
 }
 </style>
 
-<nav class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand" id="prime" href=".">
-        <img src="circle-cropped-emblem.png" width="100" height="100" class="d-inline-block align-top mr-5" alt="Emblem">
+<nav class="navbar navbar-expand-lg navbar-light sticky-top">
+    <a class="navbar-brand" href=".">
+        <img src="circle-cropped-emblem.png" width="80" height="80" class="d-inline-block align-top mr-5" alt="Emblem">
     </a>
     <h1>Sinoville Methodist Church</h1>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,14 +45,20 @@ li a:hover{
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="about">About <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href=".">HOME</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="sinovillefamily">Sinoville Family</a>
+          <a on:click={changeName('about'), scrollDom} class="nav-link" href=".">ABOUT</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+          <a  on:click={changeName('about'), scrollDom} class="nav-link" href=".">COMMUNITY</a>
         </li>
+        <li class="nav-item">
+          <a on:click={changeName('contact'), scrollDom} class="nav-link" href=".">GIVING</a>
+        </li>
+        <li class="nav-item">
+            <a on:click={changeName('contact'), scrollDom} class="nav-link" href=".">Contact</a>
+          </li>
       </ul>
     </div>
   </nav>

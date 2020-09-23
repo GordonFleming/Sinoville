@@ -1,5 +1,5 @@
 <script>
-
+    
 </script>
 
 <style>
@@ -56,6 +56,9 @@ a {
     height: 2vh;
     background-color: #004E89;
 }
+p{
+    color: white;
+}
 </style>
 
  <!-- Footer  -->
@@ -79,14 +82,19 @@ a {
                 <a href="https://www.facebook.com/Sinoville-Methodist-Church-159807964060665/" target="_blank"><i class="fab fa-facebook fa-3x"></i></a>
                 <a href="https://www.instagram.com/p/B_SEHjzlMJG/?igshid=af6a43r2q43o" target="_blank"><i class="fab fa-instagram fa-3x"></i></a>
                 <a href="mailto:office@sinovillemc.co.za"><i class="far fa-envelope fa-3x"></i></a>
+                <a href="https://www.facebook.com/Big-Hearts-Community-Care-1570626643249767/?ref=page_internal" target="_blank"><i class="far fa-heart fa-3x"></i></a>
             </div>
-            <div class="col-md-3 col-sm-6 col-xs-12 segment-three text-center pt-5">
-                <button on:click={() => window.scrollTo(0,0)} type="button" class="btn btn-info">Scroll to top</button>
+            <div class="col-md-3 col-sm-6 col-xs-12 segment-three text-center">
+                <h3>About us</h3>
+                <p>A Welcoming Family of Worship, Fellowship and Servanthood</p>
+                <div class="pt-3">
+                    <button on:click={() => window.scrollTo(0,0)} type="button" class="btn btn-info">Scroll to top</button>
+                </div>
             </div>
         </div>
         <div class="row d-flex justify-content-center mt-3">
             <a href="https://splyce.dev" target="_blank">Designed by Splyce</a>
         </div>
-    </div>   
+    </div>
 </footer>
 <div id="btm-border"></div>   
