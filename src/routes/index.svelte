@@ -88,11 +88,12 @@
 
     <!-- Groups -->
     <h1 class="mt-5">GROUPS</h1>
-    <h3 class="mb-5">Weekly activities</h3>
+    <h3 class="mb-5 about">Weekly activities</h3>
     <div class="row  mb-5">
         <div class="col-md-4 col-sm-12 text-center">
             <div class="card" style="width: 20rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
+                <!-- svelte-ignore a11y-img-redundant-alt -->
+                <img class="card-img-top" src="bible.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Bible Study Session</h5>
                     <h6 class="card-title">Wednesdays @ 19:00 (online)</h6>
@@ -102,7 +103,8 @@
         </div>
         <div class="col-md-4 col-sm-12 text-center">
             <div class="card" style="width: 20rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
+                <!-- svelte-ignore a11y-img-redundant-alt -->
+                <img class="card-img-top" src="coffee.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Coffee@7</h5>
                     <h6 class="card-title">Wednesdays @ 19:00 (online)</h6>
@@ -112,7 +114,8 @@
         </div>
         <div class="col-md-4 col-sm-12 text-center">
             <div class="card" style="width: 20rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
+                <!-- svelte-ignore a11y-img-redundant-alt -->
+                <img class="card-img-top" src="youth_group.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Youth Group</h5>
                     <h6 class="card-title">Fridays @ 19:00 (will restart when lockdown ends)</h6>
@@ -125,7 +128,8 @@
     <div class="row  mb-5">
         <div class="col-md-4 col-sm-12 text-center">
             <div class="card" style="width: 20rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
+                <!-- svelte-ignore a11y-img-redundant-alt -->
+                <img class="card-img-top" src="sunday_school.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Sunday School</h5>
                     <h6 class="card-title">Sundays @ 8:30 (online)</h6>
@@ -136,17 +140,19 @@
         </div>
         <div class="col-md-4 col-sm-12 text-center">
             <div class="card" style="width: 20rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
+                <!-- svelte-ignore a11y-img-redundant-alt -->
+                <img class="card-img-top" src="cross.jpg" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Teen Church</h5>
-                    <h6 class="card-title">Sundays @ 10:15 (online)</h6>
-                    <p class="card-text">Current societal topics are also covered with a theological reflection. The session is open to everybody.</p>
+                    <h5 class="card-title">Confirmation</h5>
+                    <h6 class="card-title">Times and dates to be confirmed in new year</h6>
+                    <p class="card-text"></p>
                 </div>
             </div>
         </div>
         <div class="col-md-4 col-sm-12 text-center">
             <div class="card" style="width: 20rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
+                <!-- svelte-ignore a11y-img-redundant-alt -->
+                <img class="card-img-top" src="teen_church.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Teen Church</h5>
                     <h6 class="card-title">Sundays @ 10:15 (online)</h6>
@@ -155,25 +161,13 @@
             </div>
         </div>
     </div>
-    <!-- Third row -->
-    <div class="row  mb-5">
-        <div class="col-md-4 offset-4 col-sm-12 text-center">
-            <div class="card" style="width: 20rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Confirmation</h5>
-                    <h6 class="card-title">Times and dates to be confirmed in new year</h6>
-                    <p class="card-text"></p>
-                </div>
-            </div>
-        </div>
-    </div>
     
-    <h3 class="mb-5">Monthly activities</h3>
+    <h3 class="mb-5 about">Monthly activities</h3>
     <div class="row  mb-5">
         <div class="col-md-4 col-sm-12 text-center">
             <div class="card" style="width: 20rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
+                <!-- svelte-ignore a11y-img-redundant-alt -->
+                <img class="card-img-top" src="feed.png" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Feed a Friend</h5>
                     <h6 class="card-title">Saturdays @ 8:00 (date confirmed before the time)</h6>
@@ -183,7 +177,8 @@
         </div>
         <div class="col-md-4 col-sm-12 text-center">
             <div class="card" style="width: 20rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
+                <!-- svelte-ignore a11y-img-redundant-alt -->
+                <img class="card-img-top" src="flowers.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Wednesday Women’s Auxiliary (WWA)</h5>
                     <h6 class="card-title">Every 3rd Wednesday of the month @ 9:30</h6>
@@ -193,11 +188,12 @@
         </div>
         <div class="col-md-4 col-sm-12 text-center">
             <div class="card" style="width: 20rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
+                <!-- svelte-ignore a11y-img-redundant-alt -->
+                <img class="card-img-top" src="men.jpg" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Sunday Women’s Auxiliary (SWA)</h5>
-                    <h6 class="card-title">Every 3rd Sunday of the month @ 11h00 - 12h00. </h6>
-                    <p class="card-text">A body of Christ committed to spread the love and brighten the lives of those around us under the motto, " Knowing Christ and making Him known".</p>
+                    <h5 class="card-title">Sinoville Methodist Men’s Fellowship (SMMF)</h5>
+                    <h6 class="card-title">Every 3rd Sunday of the month @ 10:30</h6>
+                    <p class="card-text">Motto: Each one, bring one.</p>
                 </div>
             </div>
         </div>
@@ -206,17 +202,19 @@
     <div class="row  mb-5">
         <div class="col-md-4 col-sm-12 text-center">
             <div class="card" style="width: 20rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
+                <!-- svelte-ignore a11y-img-redundant-alt -->
+                <img class="card-img-top" src="flowers2.png" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Sinoville Methodist Men’s Fellowship (SMMF)</h5>
-                    <h6 class="card-title">Every 3rd Sunday of the month @ 10:30</h6>
-                    <p class="card-text">Motto: Each one, bring one.</p>
+                    <h5 class="card-title">Sunday Women’s Auxiliary (SWA)</h5>
+                    <h6 class="card-title">Every 3rd Sunday of the month @ 11h00 - 12h00. </h6>
+                    <p class="card-text">A body of Christ committed to spread the love and brighten the lives of those around us under the motto, " Knowing Christ and making Him known".</p>
                 </div>
             </div>
         </div>
         <div class="col-md-4 col-sm-12 text-center">
             <div class="card" style="width: 20rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
+                <!-- svelte-ignore a11y-img-redundant-alt -->
+                <img class="card-img-top" src="young_adults.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Young Adults</h5>
                     <h6 class="card-title">Every 4th Sunday of the month  @ 11:00</h6>
@@ -279,15 +277,42 @@
     <div class="row d-flex justify-content-center pt-5 pb-5">
         <div class="col text-center">
             <h1 class="mb-4">ABOUT US</h1>
+            
             <h4 class="pt-4 about">History</h4>
-            <p>In the late 1970’s a group of Methodist parents started a Sunday School in the garage of their home.  Up till then families travelled over the Magaliesburg to the Valley or Central Societies.</p>
-            <br>
+            <p class="pb-4">In the late 1970’s a group of Methodist parents started a Sunday School in the garage of their home.  Up till then families travelled over the Magaliesburg to the Valley or Central Societies.</p>
+            <!-- svelte-ignore a11y-img-redundant-alt -->
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <img class="img-fluid pl-5 pr-5" src="old_sinoville.png" alt="old church">
+                    <p class="pb-5 pt-2"><em>Old Sinoville Methodist Church in Zambezi Drive (now Sefako Makgatho Drive where the Dros is)</em></p>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <img class="img-fluid pl-5 pr-5" src="new_sinoville.png" alt="New church">
+                    <p class="pb-5 pt-2"><em>New Sinoville Methodist Church in 3rd Avenue</em></p>
+                </div>
+            </div>
             <p>Later they started a Methodist Society which met in the Northridge Primary School Hall.  Eventually enough funds were raised to build a small Church.</p>
-            <br>
+            <div class="row pt-4 pb-4">
+                <div class="col-md-6 col-sm-12">
+                    <img class="img-fluid pl-5 pr-5" src="building_church.png" alt="old church">
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <img class="img-fluid pl-5 pr-5" src="building_church2.png" alt="New church">
+                </div>
+            </div>
             <p >In 1982 the original Sinoville Methodist Church on Zambezi Drive (where Montana Crossing is today) was opened.  Then in 1996 the original church was enlarged.  Soon after the renovations, the building was sold as part of a turnkey deal and they relocated to the current property on 25 July 1999.  The new property included a hall and Sunday School buildings (which the original church did not have) as well as a property of 2 hectares..</p>
+            <div class="row pt-4 pb-4">
+                <div class="col-md-6 col-sm-12">
+                    <img class="img-fluid pl-5 pr-5" src="bishop.png" alt="old church">
+                    <p class="pb-5 pt-2"><em>Bishop Hansie Mattheys and Rev Rob Sim with the opening of the new church building.</em></p>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <img class="img-fluid pl-5 pr-5" src="gathering.png" alt="New church">
+                </div>
+            </div>
+
             <h4 class="about">Our Vision</h4>
             <p>A Welcoming Family of Worship, Fellowship and Servanthood - the practical outflowing of who we are as Jesus’ Followers. Making Disciples - obedience to Jesus’ call in Matt 28:18</p>
-            <br>
             <p>Believing that the Church is called to make Disciples who are committed to the Mission of God as demonstrated in Jesus words and teaching; SMC strives to be a place where people can meet with the Risen Christ, Engage with His teachings, Heed His call to follow and, filled by the His Spirit, live each day for God’s Kingdom.</p>
             <h4 class="pt-4 about">Our Community</h4>
             <p id="contact">We are a vibrant mix of cultures, backgrounds and people who worship predominantly in the common language of English.  As a result our Leadership Team reflects who we are. </p>
