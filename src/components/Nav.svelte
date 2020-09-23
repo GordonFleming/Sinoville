@@ -1,10 +1,15 @@
 <script>
-    let domName = '';
-    function changeName(name) {
-        domName = name;
+    function scrollDom1(event) {
+        document.getElementById('about').scrollIntoView(true)
     }
-    function scrollDom(event) {
-        document.getElementById(domName).scrollIntoView({ behavior: 'smooth', block: 'center' })
+    function scrollDom2(event) {
+        document.getElementById('groups').scrollIntoView(true)
+    }
+    function scrollDom3(event) {
+        document.getElementById('giving').scrollIntoView(true)
+    }
+    function scrollDom4(event) {
+        document.getElementById('contact').scrollIntoView(true)
     }
 </script>
 
@@ -23,20 +28,20 @@ a{
 .navbar-brand{
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 40px;
-    padding-left: 3rem;
+    padding-left: 2rem;
 }
 li a:hover{
     font-size: 20.5px;
 }
 
 .nav-link{
-    margin-left: 2rem;
+    margin-left: 1rem;
 }
 </style>
 
 <nav class="navbar navbar-expand-lg navbar-light sticky-top">
     <a class="navbar-brand" href=".">
-        <img src="circle-cropped-emblem.png" width="80" height="80" class="d-inline-block align-top mr-5" alt="Emblem">
+        <img src="circle-cropped-emblem.png" width="70" height="70" class="d-inline-block align-top mr-4" alt="Emblem">
     </a>
     <h1>Sinoville Methodist Church</h1>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,19 +50,19 @@ li a:hover{
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-            <a class="nav-link" href=".">HOME</a>
+            <a on:click={() => window.scrollTo(0,0)} class="nav-link" href=".">Home</a>
         </li>
         <li class="nav-item">
-          <a on:click={changeName('about'), scrollDom} class="nav-link" href=".">ABOUT</a>
+            <a  on:click={scrollDom2} class="nav-link" href=".">Groups</a>
         </li>
         <li class="nav-item">
-          <a  on:click={changeName('about'), scrollDom} class="nav-link" href=".">COMMUNITY</a>
+            <a on:click={scrollDom3} class="nav-link" href=".">Giving</a>
         </li>
         <li class="nav-item">
-          <a on:click={changeName('contact'), scrollDom} class="nav-link" href=".">GIVING</a>
+            <a on:click={scrollDom1} class="nav-link" href=".">About</a>
         </li>
         <li class="nav-item">
-            <a on:click={changeName('contact'), scrollDom} class="nav-link" href=".">Contact</a>
+            <a on:click={scrollDom4} class="nav-link" href=".">Contact</a>
           </li>
       </ul>
     </div>
