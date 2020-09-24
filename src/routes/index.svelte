@@ -8,7 +8,6 @@
     }
     .jumbotron{
         margin-bottom:0 !important;
-        padding: 10rem;
     }
     .about:after{
         content: "";
@@ -35,8 +34,7 @@
     .display-3{
         font-family: 'Indie Flower', cursive;
         color: black;
-        padding-left: 8rem;
-        padding-right: 8rem;
+        font-size: 4rem;
     }
     #parallax{
         background-image: url('banner.jpg');
@@ -55,8 +53,8 @@
 </svelte:head>
 
 <div id="parallax" class="jumbotron" style="background-image: url('banner.jpg');">
-    <div class="row h-100">
-        <div class="col-md-12 align-self-center">
+    <div class="row p-5">
+        <div class="col-12 pt-5 pb-5 mb-5">
             <h1 class="display-3">A Welcoming Familiy of Worship, Fellowship, and Servanthood</h1>
         </div>
     </div>
