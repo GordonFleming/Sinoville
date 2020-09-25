@@ -92,7 +92,7 @@
                 <div class="col-md-4 col-sm-12">
                     <h2>9:30</h2>
                     <h5><strong>We are reopening from 4 Oct.</strong></h5>
-                    <h4 class="pt-3" id="groups">Online Service</h4>
+                    <h4 class="pt-3">Online Service</h4>
                 </div>
             </div>
         </div>
@@ -107,7 +107,7 @@
         <div class="col-md-6 col-sm-6 text-center">
             <a href="https://www.youtube.com/channel/UCS3KolbhflbyUfy8BI9F_vQ" target="_blank"><i class="fab fa-youtube fa-4x icons"></i></a>
             <br><br>
-            <p><strong>Our YouTube channel</strong></p>
+            <p id="groups"><strong>Our YouTube channel</strong></p>
         </div>
     </div>
 
@@ -287,7 +287,7 @@
             <p><strong>Bank:</strong> FNB</p>
             <p><strong>Branch:</strong> Zambezi Drive (230145)</p>
             <p><strong>Account Type:</strong> Current</p>
-            <p id="about"><strong>Account Number:</strong> 5104 109 4049</p>
+            <p><strong>Account Number:</strong> 5104 109 4049</p>
             <p><strong>Account Holder:</strong> MCSA - Sinoville Society</p>
         </div>
         <div class="col-md-6 col-sm-12 text-center">
@@ -295,7 +295,7 @@
             <i class="fas fa-hands-helping fa-7x pt-4 pb-4"></i>
             <p>If you would like to volunteer, you can speak to any of the ministers or society stewards.</p>
             <br>
-            <img src="snap_scan.png" alt="snap_scan">
+            <img id="about" src="snap_scan.png" alt="snap_scan">
         </div>
     </div>
 
