@@ -92,22 +92,21 @@
                 <div class="col-md-4 col-sm-12">
                     <h2>9:30</h2>
                     <h5><strong>We are reopening from 4 Oct.</strong></h5>
-                    <h4 class="pt-3">Online Service</h4>
+                    <h4 class="pt-3">Online and on-site service</h4>
                 </div>
             </div>
         </div>
     </div>
-    <h4>Weekly Notices:</h4>
     <div class="row">
         <div class="col-md-6 col-sm-6 text-center">
             <a href="https://drive.google.com/drive/folders/1M4JcYdRS-ZD2_7LHNUqGJ4iRyBL4fxVu?usp=sharing " target="_blank"><i class="fab fa-google-drive fa-4x icons"></i></a>
             <br><br>
-            <p><strong>Important notices</strong></p>
+            <p><strong>Weekly notices</strong></p>
         </div>
         <div class="col-md-6 col-sm-6 text-center">
             <a href="https://www.youtube.com/channel/UCS3KolbhflbyUfy8BI9F_vQ" target="_blank"><i class="fab fa-youtube fa-4x icons"></i></a>
             <br><br>
-            <p id="groups"><strong>Our YouTube channel</strong></p>
+            <p id="groups"><strong>SMC YouTube Channel</strong></p>
         </div>
     </div>
 
@@ -203,7 +202,7 @@
         <div class="col-md-4 col-sm-12 text-center">
             <div class="card" style="width: 20rem;">
                 <!-- svelte-ignore a11y-img-redundant-alt -->
-                <img class="card-img-top" src="flowers.jpg" alt="Card image cap">
+                <img class="card-img-top" src="flowers2.png" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Wednesday Women’s Auxiliary (WWA)</h5>
                     <h6 class="card-title">Every 3rd Wednesday of the month @ 9:30</h6>
@@ -228,7 +227,7 @@
         <div class="col-md-4 col-sm-12 text-center">
             <div class="card" style="width: 20rem;">
                 <!-- svelte-ignore a11y-img-redundant-alt -->
-                <img class="card-img-top" src="flowers2.png" alt="Card image cap">
+                <img class="card-img-top" src="flowers.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Sunday Women’s Auxiliary (SWA)</h5>
                     <h6 class="card-title">Every 3rd Sunday of the month @ 11h00 - 12h00. </h6>
@@ -248,7 +247,7 @@
             </div>
         </div>
     </div>
-    <h5>For more information about activities happening, visit our <a id="link" href="https://www.facebook.com/Sinoville-Methodist-Church-159807964060665/" target="_blank">facebook page.</a></h5>
+    <h5>For more information about activities happening, visit our <a id="link" href="https://www.facebook.com/Sinoville-Methodist-Church-159807964060665/" target="_blank">facebook page</a></h5>
     <!-- svelte-ignore a11y-missing-content -->
     <h5>or contact the Church office: <a id="link" href="mailto:office@sinovillemc.co.za">office@sinovillemc.co.za</a></h5>
     <div class="row">
@@ -281,21 +280,27 @@
 
     <h1 class="mt-5">GIVING</h1>
     <div class="row">
-        <div class="col-md-6 col-sm-12 text-center">
+        <div class="col-12 text-center">
             <h3>Tithing and Donations</h3>
             <i class="fas fa-hand-holding-medical fa-7x pt-4 pb-4"></i>
-            <p><strong>Bank:</strong> FNB</p>
-            <p><strong>Branch:</strong> Zambezi Drive (230145)</p>
-            <p><strong>Account Type:</strong> Current</p>
-            <p><strong>Account Number:</strong> 5104 109 4049</p>
-            <p><strong>Account Holder:</strong> MCSA - Sinoville Society</p>
+            <div class="row">
+                <div class="col-md-6 col-sm-12 text-center pt-4">
+                    <p><strong>Bank:</strong> FNB</p>
+                    <p><strong>Branch:</strong> Zambezi Drive (230145)</p>
+                    <p><strong>Account Type:</strong> Current</p>
+                    <p><strong>Account Number:</strong> 5104 109 4049</p>
+                    <p><strong>Account Holder:</strong> MCSA - Sinoville Society</p>
+                </div>
+                <div class="col-md-6 col-sm-12 text-center">
+                    <img src="snap_scan.png" alt="snap_scan">
+                </div>
+            </div>
         </div>
-        <div class="col-md-6 col-sm-12 text-center">
+        <div class="col-12 text-center pt-5">
             <h3>Become a volunteer</h3>
             <i class="fas fa-hands-helping fa-7x pt-4 pb-4"></i>
-            <p>If you would like to volunteer, you can speak to any of the ministers or society stewards.</p>
+            <p id="about">If you would like to volunteer your time, please speak to the minister or society stewards or send an email to the office. We always need door stewards, tea stewards, volunteers to do flowers in the church, Sunday School teachers and maintenance stewards. God says in 1 John 3:18; “Dear children, let us not love with words or speech but with actions and in truth.”</p>
             <br>
-            <img id="about" src="snap_scan.png" alt="snap_scan">
         </div>
     </div>
 
@@ -313,11 +318,11 @@
                 </div>
                 <div class="col-md-6 col-sm-12">
                     <img class="img-fluid pl-5 pr-5" src="new_sinoville.png" alt="old church">
-                    <p class="pb-5 pt-2"><em>Old Sinoville Methodist Church in 3rd Avenue</em></p>
+                    <p class="pb-5 pt-2"><em>Old Sinoville Methodist Church in Zambezi Drive</em></p>
                 </div>
             </div>
             <p>Later they started a Methodist Society which met in the Northridge Primary School Hall.  Eventually enough funds were raised to build a small Church.</p>
-            <div class="row pt-4 pb-4">
+            <div class="row pt-4">
                 <div class="col-md-6 col-sm-12">
                     <img class="img-fluid pl-5 pr-5" src="bishop.png" alt="old church">
                     <p class="pb-5 pt-2"><em>Bishop Hansie Mattheys and Rev Rob Sim with the opening of the new church building.</em></p>
@@ -326,8 +331,8 @@
                     <img class="img-fluid pl-5 pr-5" src="gathering.png" alt="New church">
                 </div>
             </div>
-            <p >In 1982 the original Sinoville Methodist Church on Zambezi Drive (where Montana Crossing is today) was opened.  Then in 1996 the original church was enlarged.  Soon after the renovations, the building was sold as part of a turnkey deal and they relocated to the current property on 25 July 1999.  The new property included a hall and Sunday School buildings (which the original church did not have) as well as a property of 2 hectares..</p>
-            <div class="row pt-4 pb-4">
+            <p>In 1982 the original Sinoville Methodist Church on Zambezi Drive (where Montana Crossing is today) was opened.  Then in 1996 the original church was enlarged.  Soon after the renovations, the building was sold as part of a turnkey deal and they relocated to the current property on 25 July 1999.  The new property included a hall and Sunday School buildings (which the original church did not have) as well as a property of 2 hectares.</p>
+            <div class="row pt-4 pb-2">
                 <div class="col-md-6 col-sm-12">
                     <img class="img-fluid pl-5 pr-5" src="building_church.png" alt="old church">
                 </div>
@@ -338,8 +343,8 @@
                     <img class="img-fluid pl-5 pr-5" src="current_church.jpg" alt="Current church">
                 </div>
             </div>
-            <em>Thank you for the photos to Monty and Lettie Morris</em>
-            <br><br>
+            <em>Photo credits: Thank you to Monty and Lettie Morris</em>
+            <br><br><br>
             <h4 class="about">Our Vision</h4>
             <p>A welcoming family of worship, fellowship and servanthood – the practical outflowing of who we are as Jesus’ followers.</p>
             <p>We believe that the Church is called to make disciples who are committed to the mission of God as demonstrated in Jesus words and teaching. SMC strives to be a place where people can meet with the Risen Christ, engage with His teachings, heed His call to follow and be filled with His Holy Spirit.</p>
