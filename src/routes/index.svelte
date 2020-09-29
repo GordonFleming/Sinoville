@@ -81,18 +81,19 @@
         <div class="col-12 mt-3 mb-5">
             <h2 class="pb-5">Service Times</h2>
             <div class="row mt-5 text-center">
-                <div class="col-md-4 col-sm-12">
-                    <h2>8:30</h2>
-                    <br>
-                    <h4>Online Sunday School</h4>
+                <div class="col-md-4 col-sm-12 pt-4">
+                    <h2>9:30</h2>
+                    <h4 class="pt-3">Online and on-site service</h4>
                 </div>
                 <div class="col-md-4 col-sm-12">
                     <i class="fas fa-church fa-10x"></i>
                 </div>
                 <div class="col-md-4 col-sm-12">
-                    <h2>9:30</h2>
-                    <h5><strong>We are reopening from 4 Oct.</strong></h5>
-                    <h4 class="pt-3">Online and on-site service</h4>
+                    <h2>8:30</h2>
+                    <h4>Online Sunday School</h4>
+                    <br>
+                    <h2>10:15</h2>
+                    <h4>Online Teen Church </h4>
                 </div>
             </div>
         </div>
@@ -131,7 +132,7 @@
                 <img class="card-img-top" src="coffee.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Coffee@7</h5>
-                    <h6 class="card-title">Wednesdays @ 19:00 (online)</h6>
+                    <h6 class="card-title">Fridays @ 19:00 (online)</h6>
                     <p class="card-text">Current societal topics are also covered with a theological reflection. The session is open to everybody.</p>
                 </div>
             </div>
@@ -191,7 +192,7 @@
         <div class="col-md-4 col-sm-12 text-center">
             <div class="card" style="width: 20rem;">
                 <!-- svelte-ignore a11y-img-redundant-alt -->
-                <img class="card-img-top" src="feed.png" alt="Card image cap">
+                <img class="card-img-top" src="feed.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Feed a Friend</h5>
                     <h6 class="card-title">Saturdays @ 8:00 (date confirmed before the time)</h6>
@@ -202,7 +203,7 @@
         <div class="col-md-4 col-sm-12 text-center">
             <div class="card" style="width: 20rem;">
                 <!-- svelte-ignore a11y-img-redundant-alt -->
-                <img class="card-img-top" src="flowers2.png" alt="Card image cap">
+                <img class="card-img-top" src="flowers2.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Wednesday Women’s Auxiliary (WWA)</h5>
                     <h6 class="card-title">Every 3rd Wednesday of the month @ 9:30</h6>
@@ -217,7 +218,8 @@
                 <div class="card-body">
                     <h5 class="card-title">Sinoville Methodist Men’s Fellowship (SMMF)</h5>
                     <h6 class="card-title">Every 3rd Sunday of the month @ 10:30</h6>
-                    <p class="card-text">Motto: Each one, bring one.</p>
+                    <p class="card-text">Men of Faith that draw together through discipleship. Our motto: Each One – Reach One.</p>
+                    <a href="https://web.facebook.com/SMCMensFellowship" target="_blank"><i class="fab fa-facebook fa-2x icons"></i></a>
                 </div>
             </div>
         </div>
@@ -243,6 +245,7 @@
                     <h5 class="card-title">Young Adults</h5>
                     <h6 class="card-title">Every 4th Sunday of the month  @ 11:00</h6>
                     <p class="card-text">For young adults who are navigating life with God.</p>
+                    <a href="https://web.facebook.com/Sinoville-Young-Adult-Movement-112136197217608" target="_blank"><i class="fab fa-facebook fa-2x icons"></i></a>
                 </div>
             </div>
         </div>
@@ -252,19 +255,12 @@
     <h5>or contact the Church office: <a id="link" href="mailto:office@sinovillemc.co.za">office@sinovillemc.co.za</a></h5>
     <div class="row">
         <div class="col text-center mb-5 mt-5">
-            <h2 class="pb-3">Ministers</h2>
+            <h2 class="pb-3">Minister and Deacon</h2>
             <div class="row">
-                <div class="col-md-4 col-sm-12 pt-5">
-                    <h3>Dcn. Douw Grobler</h3>
-                    <br>
-                    <a href="tel:083-374-4333"><em>Cell. </em>083 374 4333</a>
-                    <br>
-                    <a href="mailto:douw@sinovillemc.co.za">douw@sinovillemc.co.za</a>
-                </div>
-                <div class="col-md-4 col-sm-12">
+                <div class="col-md-6 col-sm-12 pt-4 pr-5 text-right">
                     <img src="Ministers.png" alt="Ministers">
                 </div>
-                <div class="col-md-4 col-sm-12 pt-5">
+                <div class="col-md-6 col-sm-12 pt-5">
                     <h3>Rev. Storia Seitisho</h3>
                     <br>
                     <a href="tel:012-567-2465"><em>Tel. </em>(012) 567-2465 (H)</a>
@@ -272,6 +268,12 @@
                     <a href="tel:072-598-5691"><em>Cell. </em>072 598 5691</a>
                     <br>
                     <a href="mailto:storia@sinovillemc.co.za">storia@sinovillemc.co.za</a>
+                    <br><br><br>
+                    <h3>Dcn. Douw Grobler</h3>
+                    <br>
+                    <a href="tel:083-374-4333"><em>Cell. </em>083 374 4333</a>
+                    <br>
+                    <a href="mailto:douw@sinovillemc.co.za">douw@sinovillemc.co.za</a>
                 </div>
             </div>
             <div id="giving"></div>
