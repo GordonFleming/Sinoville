@@ -54,6 +54,7 @@
     }
     .card{
         background-color: inherit;
+        border: 0;
     }
     #corona{
         background-color: #6288CF;
@@ -255,6 +256,40 @@
             </div>
         </div>
     </div>
+
+    <h3 class="mb-5 about">Support groups</h3>
+    <div class="row  mb-5">
+        <div class="col-md-4 col-sm-12 text-center">
+            <div class="card" style="width: 20rem;">
+                <!-- svelte-ignore a11y-img-redundant-alt -->
+                <img class="card-img-top" src="hands.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">GBV-F Support</h5>
+                    <p class="card-text">Support for Gender Based Violence and Femicide victims. Contact the minister of office to access this support group.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-12 text-center">
+            <div class="card" style="width: 20rem;">
+                <!-- svelte-ignore a11y-img-redundant-alt -->
+                <img class="card-img-top" src="group.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Alcoholics Anonymous</h5>
+                    <h6 class="card-title">Thurs@ 19:30</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-12 text-center">
+            <div class="card" style="width: 20rem;">
+                <!-- svelte-ignore a11y-img-redundant-alt -->
+                <img class="card-img-top" src="man_in_field.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Narcotics Anonymous</h5>
+                    <h6 class="card-title">Mon@ 19:30-20:30</h6>
+                </div>
+            </div>
+        </div>
+    </div>
     <h5>For more information about activities happening, visit our <a id="link" href="https://www.facebook.com/Sinoville-Methodist-Church-159807964060665/" target="_blank">facebook page</a></h5>
     <!-- svelte-ignore a11y-missing-content -->
     <h5>or contact the Church office: <a id="link" href="mailto:office@sinovillemc.co.za">office@sinovillemc.co.za</a></h5>
@@ -262,8 +297,17 @@
         <div class="col text-center mb-5 mt-5">
             <h2 class="pb-3">Minister and Deacon</h2>
             <div class="row">
-                <div class="col-md-6 col-sm-12 pt-4 pr-5 text-right">
-                    <img src="Ministers.png" alt="Ministers">
+                <div class="col-md-6 col-sm-12 pt-4 pr-5">
+                    <div class="row">
+                        <div class="col text-right pr-5">
+                            <img class="img-fluid" style="height: 200px;" src="Storia.png" alt="Storia">
+                        </div>
+                    </div>
+                    <div class="row pt-3">
+                        <div class="col text-right pr-5">
+                            <img class="img-fluid" style="height: 200px;" src="Douw.png" alt="Douw">
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-6 col-sm-12 pt-5">
                     <h3>Rev. Storia Seitisho</h3>
@@ -273,7 +317,7 @@
                     <a href="tel:072-598-5691"><em>Cell. </em>072 598 5691</a>
                     <br>
                     <a href="mailto:storia@sinovillemc.co.za">storia@sinovillemc.co.za</a>
-                    <br><br><br>
+                    <br><br><br><br><br>
                     <h3>Dcn. Douw Grobler</h3>
                     <br>
                     <a href="tel:083-374-4333"><em>Cell. </em>083 374 4333</a>
@@ -284,6 +328,7 @@
             <div id="giving"></div>
         </div>
     </div>
+    
 
     <h1 class="mt-5">GIVING</h1>
     <div class="row">
@@ -363,6 +408,7 @@
     <h1 class="pt-5">CONTACT US</h1>
     <div class="row pt-2 text-center">
         <div class="col-md-6 col-sm-12 pt-5">
+            <img class="img-fluid pl-5 pr-5" style="height: 120px;" src="methodist_emblem.png" alt="Methodist Church emblem">
             <i class="fas fa-phone-alt fa-4x d-block pb-4 pt-5"></i>
             <a href="tel:012-567-0065"><em>Tel:</em> (012) 567-0065</a>
             <i class="fas fa-map-marker-alt fa-4x d-block pt-4 pb-4"></i>
