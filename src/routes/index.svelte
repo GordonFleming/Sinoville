@@ -1,7 +1,3 @@
-<script>
-
-</script>
-
 <style>
     #about{
 
@@ -87,9 +83,7 @@
 <div id="corona" class="pb-3 pr-3 pl-3 mb-2 pt-3 card text-white col text-center">
     <a href="https://sacoronavirus.co.za" target="_blank" style="color:inherit;"><strong>Stay informed!</strong> Visit the SA Department of Health's website for COVID-19 updates: www.sacoronavirus.co.za</a>
 </div>
-
 <div class="container pt-5 pb-5">
-
     <div class="row mb-4">
         <div class="col-12 mt-3 mb-5">
             <h2 class="pb-5">Service Times</h2>
@@ -123,7 +117,6 @@
             <p id="groups"><strong>SMC YouTube Channel</strong></p>
         </div>
     </div>
-
     <!-- Groups -->
     <h1 class="mt-5">GROUPS</h1>
     <h3 class="mb-5 about">Weekly activities</h3>
@@ -199,7 +192,6 @@
             </div>
         </div>
     </div>
-    
     <h3 class="mb-5 about">Monthly activities</h3>
     <div class="row  mb-5">
         <div class="col-md-4 col-sm-12 text-center">
@@ -419,5 +411,4 @@
     <div class="row mt-5">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3596.1085164715164!2d28.232515815656487!3d-25.66769724861095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ebfdee92e9a1707%3A0xe2c4d11fc83c723f!2sSinoville%20Methodist%20Church!5e0!3m2!1sen!2sza!4v1600851803348!5m2!1sen!2sza" width="1500" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" title="Location"></iframe>
     </div>
-
 </div>
