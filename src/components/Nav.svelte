@@ -1,19 +1,15 @@
 <script>
     function scrollDom1(event) {
-        var elementOne =  document.getElementById('about');
-        elementOne.scrollIntoView(true);
+        document.getElementById('about').scrollIntoView(true);
     }
     function scrollDom2(event) {
-        var elementTwo =  document.getElementById('groups');
-       elementTwo.scrollIntoView(true);
+        document.getElementById('groups').scrollIntoView(true);
     }
     function scrollDom3(event) {
-        var elementThree =  document.getElementById('giving');
-        elementThree.scrollIntoView(true);
+        document.getElementById('giving').scrollIntoView(true);
     }
     function scrollDom4(event) {
-        var elementFour =  document.getElementById('contact');
-        elementFour.scrollIntoView(true);
+        document.getElementById('contact').scrollIntoView(true);
     }
 </script>
 
