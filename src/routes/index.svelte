@@ -3,6 +3,19 @@
 </script>
 
 <style>
+    #about{
+
+    }
+    #giving{
+
+    }
+    #contact{
+
+    }
+    #groups{
+
+    }
+
     .btn{
         background-color: #004E89;
     }
