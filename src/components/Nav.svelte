@@ -24,6 +24,7 @@ nav{
 a{
     font-size: 20px;
     color: #012646;
+    cursor: pointer;
 }
 .navbar-brand{
     font-family: 'Noto Sans JP', sans-serif;
@@ -50,19 +51,24 @@ li a:hover{
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-            <a on:click={() => window.scrollTo(0,0)} class="nav-link" href=".">Home</a>
+            <!-- svelte-ignore a11y-missing-attribute -->
+            <a on:click={() => window.scrollTo(0,0)} class="nav-link">Home</a>
         </li>
         <li class="nav-item">
-            <a  on:click={scrollDom2} class="nav-link" href=".">Groups</a>
+            <!-- svelte-ignore a11y-missing-attribute -->
+            <a  on:click={scrollDom2} class="nav-link">Groups</a>
         </li>
         <li class="nav-item">
-            <a on:click={scrollDom3} class="nav-link" href=".">Giving</a>
+            <!-- svelte-ignore a11y-missing-attribute -->
+            <a on:click={scrollDom3} class="nav-link">Giving</a>
         </li>
         <li class="nav-item">
-            <a on:click={scrollDom1} class="nav-link" href=".">About</a>
+            <!-- svelte-ignore a11y-missing-attribute -->
+            <a on:click={scrollDom1} class="nav-link">About</a>
         </li>
         <li class="nav-item">
-            <a on:click={scrollDom4} class="nav-link" href=".">Contact</a>
+            <!-- svelte-ignore a11y-missing-attribute -->
+            <a on:click={scrollDom4} class="nav-link">Contact</a>
           </li>
       </ul>
     </div>
