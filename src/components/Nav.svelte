@@ -36,19 +36,19 @@ li a:hover{
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-            <a on:click={() => window.scrollTo(0,0)} class="nav-link" href=".">Home</a>
+            <a id="home_nav" on:click={() => window.scrollTo(0,0)} class="nav-link" href=".">Home</a>
         </li>
         <li class="nav-item">
-            <a  on:click={scrollDom2} class="nav-link" href=".">Groups</a>
+            <a id="groups_nav" on:click={scrollDom2} class="nav-link" href=".">Groups</a>
         </li>
         <li class="nav-item">
-            <a on:click={scrollDom3} class="nav-link" href=".">Giving</a>
+            <a id="giving_nav" on:click={scrollDom3} class="nav-link" href=".">Giving</a>
         </li>
         <li class="nav-item">
-            <a on:click={scrollDom1} class="nav-link" href=".">About</a>
+            <a id="about_nav" on:click={scrollDom1} class="nav-link" href=".">About</a>
         </li>
         <li class="nav-item">
-            <a on:click={scrollDom4} class="nav-link" href=".">Contact</a>
+            <a id="contact_nav" on:click={scrollDom4} class="nav-link" href=".">Contact</a>
           </li>
       </ul>
     </div>

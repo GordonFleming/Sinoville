@@ -265,7 +265,7 @@
                 <img class="card-img-top" src="hands.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">GBV-F Support</h5>
-                    <p class="card-text">Support for Gender Based Violence and Femicide victims. Contact the minister of office to access this support group.</p>
+                    <p class="card-text">Support for Gender Based Violence and Femicide victims. Contact the minister or office to access this support group.</p>
                 </div>
             </div>
         </div>
@@ -275,7 +275,7 @@
                 <img class="card-img-top" src="group.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Alcoholics Anonymous</h5>
-                    <h6 class="card-title">Thurs@ 19:30</h6>
+                    <h6 class="card-title">Thurs @ 19:30</h6>
                 </div>
             </div>
         </div>
@@ -285,7 +285,7 @@
                 <img class="card-img-top" src="man_in_field.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Narcotics Anonymous</h5>
-                    <h6 class="card-title">Mon@ 19:30-20:30</h6>
+                    <h6 class="card-title">Mon @ 19:30-20:30</h6>
                 </div>
             </div>
         </div>
