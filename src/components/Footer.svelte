@@ -99,7 +99,7 @@ p{
                 <h3>About us</h3>
                 <p>A Welcoming Family of Worship, Fellowship and Servanthood</p>
                 <div class="pt-3">
-                    <button on:click={() => window.scrollTo(0,0)} type="button" class="btn btn-info">Scroll to top</button>
+                    <button id="button" type="button" class="btn btn-info">Scroll to top</button>
                 </div>
             </div>
         </div>

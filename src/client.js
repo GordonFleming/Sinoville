@@ -30,4 +30,12 @@ sapper.start({
     contact.addEventListener("click",function(){
         document.getElementById('contact').scrollIntoView(true);
     })
+    var btn = document.getElementById('button');
+    btn.addEventListener("click",function(){
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: 'smooth'
+         });
+    })
 });
