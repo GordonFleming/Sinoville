@@ -295,19 +295,19 @@
     <h5>or contact the Church office: <a id="link" href="mailto:office@sinovillemc.co.za">office@sinovillemc.co.za</a></h5>
     <div class="row">
         <div class="col text-center mb-5 mt-5">
-            <h2 class="pb-3">Minister and Deacon</h2>
+            <h2 class="pb-3">Minister</h2>
             <div class="row">
                 <div class="col-md-6 col-sm-12 pt-4 pr-5">
                     <div class="row">
-                        <div class="col text-right pr-5">
+                        <div class="col text-right pr-5 mr-5">
                             <img class="img-fluid" style="height: 200px;" src="Storia.png" alt="Storia">
                         </div>
                     </div>
-                    <div class="row pt-3">
+                    <!-- <div class="row pt-3">
                         <div class="col text-right pr-5">
                             <img class="img-fluid" style="height: 200px;" src="Douw.png" alt="Douw">
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="col-md-6 col-sm-12 pt-5">
                     <h3>Rev. Storia Seitisho</h3>
@@ -317,12 +317,12 @@
                     <a href="tel:072-598-5691"><em>Cell. </em>072 598 5691</a>
                     <br>
                     <a href="mailto:storia@sinovillemc.co.za">storia@sinovillemc.co.za</a>
-                    <br><br><br><br><br>
+                    <!-- <br><br><br><br><br>
                     <h3>Dcn. Douw Grobler</h3>
                     <br>
                     <a href="tel:083-374-4333"><em>Cell. </em>083 374 4333</a>
                     <br>
-                    <a href="mailto:douw@sinovillemc.co.za">douw@sinovillemc.co.za</a>
+                    <a href="mailto:douw@sinovillemc.co.za">douw@sinovillemc.co.za</a> -->
                 </div>
             </div>
             <div id="giving"></div>
