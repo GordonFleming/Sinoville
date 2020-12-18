@@ -314,7 +314,7 @@
                     <br>
                     <a href="tel:012-567-2465"><em>Tel. </em>(012) 567-2465 (H)</a>
                     <br>
-                    <a href="tel:072-598-5691"><em>Cell. </em>072 598 5691</a>
+                    <a href="tel:072-598-5691"><em>Cell. </em>066 457 4017</a>
                     <br>
                     <a href="mailto:storia@sinovillemc.co.za">storia@sinovillemc.co.za</a>
                     <!-- <br><br><br><br><br>

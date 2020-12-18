@@ -54,7 +54,7 @@ a {
 	color: #d8d0d0c0;
 }
 #btm-border{
-    height: 3vh;
+    height: 4vh;
     background-color: #004E89;
 }
 p{
