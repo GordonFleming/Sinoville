@@ -1,15 +1,5 @@
 ## Getting started
 
-### Using `degit`
-
-[`degit`](https://github.com/Rich-Harris/degit) is a scaffolding tool that lets you create a directory from a branch in a repository. Use either the `rollup` or `webpack` branch in `sapper-template`:
-
-```bash
-# for Rollup (Used for this site)
-npx degit "sveltejs/sapper-template#rollup" my-app
-# for webpack
-npx degit "sveltejs/sapper-template#webpack" my-app
-```
 ### Running the project
 
 However you get the code, you can install dependencies and run the project in development mode with:
@@ -83,38 +73,3 @@ npm run export
 ```
 __sapper__/export
 ```
-
-## Using external components
-
-When using Svelte components installed from npm, such as [@sveltejs/svelte-virtual-list](https://github.com/sveltejs/svelte-virtual-list), Svelte needs the original component source (rather than any precompiled JavaScript that ships with the component). This allows the component to be rendered server-side, and also keeps your client-side app smaller.
-
-Because of that, it's essential that the bundler doesn't treat the package as an *external dependency*. You can either modify the `external` option under `server` in [rollup.config.js](rollup.config.js) or the `externals` option in [webpack.config.js](webpack.config.js), or simply install the package to `devDependencies` rather than `dependencies`, which will cause it to get bundled (and therefore compiled) with your app:
-
-```bash
-npm install -D @sveltejs/svelte-virtual-list
-```
-
-
-## Notes:
-
-#### For use of SvelteStrap:
-Due to server side rendering through Sapper, import syntax as such
-```javascript
-<script>
-  import Button from 'sveltestrap/src/Button.svelte';
-  import Col from 'sveltestrap/src/Col.svelte';
-  import Row from 'sveltestrap/src/Row.svelte';
-</script>
-```
-
-and not like,
-
-```javascript
-<script>
-  import { Button, Col, Row } from 'sveltestrap';
-</script>
-```
-
-## Possible Sass addition to Sapper
-
-https://medium.com/@sean_27490/svelte-sapper-with-sass-271fff662da9

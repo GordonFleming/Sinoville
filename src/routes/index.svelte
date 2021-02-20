@@ -90,17 +90,17 @@
             <h2 class="pb-5">Service Times</h2>
             <div class="row mt-5 text-center">
                 <div class="col-md-4 col-sm-12 pt-4">
-                    <h2>9:30</h2>
+                    <h2>8:30</h2>
                     <h4 class="pt-3">Online and on-site service</h4>
                 </div>
                 <div class="col-md-4 col-sm-12">
                     <i class="fas fa-church fa-10x"></i>
                 </div>
                 <div class="col-md-4 col-sm-12">
-                    <h2>8:30</h2>
+                    <h2>7:30</h2>
                     <h4>Online Sunday School</h4>
                     <br>
-                    <h2>10:15</h2>
+                    <h2>9:30</h2>
                     <h4>Online Teen Church </h4>
                 </div>
             </div>
@@ -128,19 +128,23 @@
                 <img class="card-img-top" src="bible.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Bible Study Session</h5>
-                    <h6 class="card-title">Wednesdays @ 19:00 (online)</h6>
-                    <p class="card-text">Current course: Hand-in-Hand where the objective is to equip churches to have a positive impact in preventing and responding to sexual violence in their church and community.</p>
+                    <h6 class="card-title">Wednesdays, in person at church @ 9:00 - 10:00</h6>
+                    <h6 class="card-title">Wednesdays, online via Zoom @ 18:30 - 19:30</h6>
+                    <p class="card-text"><strong>Topic:</strong> Will be based on the book “Discipleship Path - Deepening your relationship with Christ and
+                        the Church” and reading material will be distributed before the time for everyone to read. An audio
+                        file of the online session will also be shared for those people who cannot join one of the other
+                        options. (All COVID protocols will be adhered to in the Church)</p>
                 </div>
             </div>
         </div>
         <div class="col-md-4 col-sm-12 text-center">
             <div class="card" style="width: 20rem;">
                 <!-- svelte-ignore a11y-img-redundant-alt -->
-                <img class="card-img-top" src="coffee.jpg" alt="Card image cap">
+                <img class="card-img-top" src="cross.jpg" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Coffee@7</h5>
-                    <h6 class="card-title">Fridays @ 19:00 (online)</h6>
-                    <p class="card-text">Current societal topics are also covered with a theological reflection. The session is open to everybody.</p>
+                    <h5 class="card-title">Confirmation</h5>
+                    <h6 class="card-title">Request information about confirmation from the Google Form below:</h6>
+                    <a style="color: blue;" href="https://forms.gle/kKNGGDt1mJLzkEGP8">https://forms.gle/kKNGGDt1mJLzkEGP8</a>
                 </div>
             </div>
         </div>
@@ -164,30 +168,29 @@
                 <img class="card-img-top" src="sunday_school.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Sunday School</h5>
-                    <h6 class="card-title">Sundays @ 8:30 (online)</h6>
+                    <h6 class="card-title">Sundays @ 7:30 (online)</h6>
                     <p class="card-text">From little children to Gr 7</p>
                     <p class="card-text">We share God's word and love with fun and laughter.</p>
                 </div>
             </div>
         </div>
-        <div class="col-md-4 col-sm-12 text-center">
+        <!-- <div class="col-md-4 col-sm-12 text-center">
             <div class="card" style="width: 20rem;">
-                <!-- svelte-ignore a11y-img-redundant-alt -->
-                <img class="card-img-top" src="cross.jpg" alt="Card image cap">
+                <img class="card-img-top" src="coffee.jpg" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Confirmation</h5>
-                    <h6 class="card-title">Times and dates to be confirmed in new year</h6>
-                    <p class="card-text"></p>
+                    <h5 class="card-title">Coffee@7</h5>
+                    <h6 class="card-title">Fridays @ 19:00 (online)</h6>
+                    <p class="card-text">Current societal topics are also covered with a theological reflection. The session is open to everybody.</p>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="col-md-4 col-sm-12 text-center">
             <div class="card" style="width: 20rem;">
                 <!-- svelte-ignore a11y-img-redundant-alt -->
                 <img class="card-img-top" src="teen_church.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Teen Church</h5>
-                    <h6 class="card-title">Sundays @ 10:15 (online)</h6>
+                    <h6 class="card-title">Sundays @ 9:30 (online)</h6>
                     <p class="card-text">Teen church is a place to belong, a place where any student can be “Home”.</p>
                 </div>
             </div>
@@ -222,7 +225,7 @@
                 <!-- svelte-ignore a11y-img-redundant-alt -->
                 <img class="card-img-top" src="men.jpg" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Sinoville Methodist Men’s Fellowship (SMMF)</h5>
+                    <h5 class="card-title">Sinoville Methodist Men’s League (SMML)</h5>
                     <h6 class="card-title">Every 3rd Sunday of the month @ 10:30</h6>
                     <p class="card-text">Men of Faith that draw together through discipleship. Our motto: Each One – Reach One.</p>
                     <a href="https://web.facebook.com/SMCMensFellowship" target="_blank"><i class="fab fa-facebook fa-2x icons"></i></a>
@@ -248,7 +251,7 @@
                 <!-- svelte-ignore a11y-img-redundant-alt -->
                 <img class="card-img-top" src="young_adults.jpg" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Young Adults</h5>
+                    <h5 class="card-title">Young Adults Movement (YAM)</h5>
                     <h6 class="card-title">Every 4th Sunday of the month  @ 11:00</h6>
                     <p class="card-text">For young adults who are navigating life with God.</p>
                     <a href="https://web.facebook.com/Sinoville-Young-Adult-Movement-112136197217608" target="_blank"><i class="fab fa-facebook fa-2x icons"></i></a>
