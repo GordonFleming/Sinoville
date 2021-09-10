@@ -1,0 +1,156 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: rgb(98,136,207);
+    background: linear-gradient(0deg, rgba(98,136,207,1) 0%, rgba(124,154,209,1) 16%, rgba(138,168,218,1) 32%, rgba(219,225,232,1) 89%);
+}
+::-webkit-scrollbar {
+width: 16px;
+}
+::-webkit-scrollbar-track {
+background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+background: #1f6986;
+border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+background: #004E89;
+}
+
+/* Nav */
+nav{
+    background-color: #6288CF;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    padding-right: 5rem;
+    border-bottom: 0.4vh solid #004E89;
+}
+a{
+    font-size: 20px;
+    color: #012646;
+    cursor: pointer;
+}
+.navbar-brand{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 40px;
+    padding-left: 2rem;
+}
+li a:hover{
+    font-size: 20.5px;
+}
+i:hover{
+    color: #9AD6F9;
+    cursor: pointer;
+}
+h1,h4{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+h2, h3, h5{
+    text-align: center;
+}
+p{
+    color: black;
+    font-size: 18px;
+    /* text-align: justify; */
+}
+
+.nav-link{
+    margin-left: 1rem;
+}
+
+/* Footer */
+
+.footer_look {
+    background: #6288CF;
+    padding: 30px;
+    margin-top: auto;
+    border-top: 3px solid #004E89;
+}
+.segment-two h3{
+    color: cornsilk;
+    font-size: 22px;
+    text-transform: uppercase;   
+    margin: 10px 0;
+    white-space: nowrap;
+}
+.segment-two ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.segment-two ul li{
+    padding-bottom: 3px;
+    text-align: left;
+    padding-left: 6vw;
+}
+.segment-two ul li{
+    color: white;
+}
+.segment-three h3{
+    color: cornsilk;
+    font-size: 22px;
+    text-transform: uppercase;   
+    margin: 10px 0;
+}
+.segment-three a{
+    margin-top: 20px;
+    margin-left: 30px;
+    color: white;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 30%;
+}
+.btn-info{
+    background-color: #004E89;
+}
+#btm-border{
+    height: 4vh;
+    background-color: #004E89;
+}
+
+.btn{
+    background-color: #004E89;
+}
+.jumbotron{
+    margin-bottom:0 !important;
+}
+.about:after{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 8%;
+    padding-top: 10px;
+    border-bottom: 1px solid black;
+}
+.display-3{
+    font-family: 'Indie Flower', cursive;
+    color: black;
+    font-size: 4rem;
+}
+#parallax{
+    background-image: url('banner.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.card{
+    background-color: inherit;
+    border: 0;
+}
+#corona{
+    background-color: #6288CF;
+}
+#link{
+    color: #004E89;
+}
+.icons{
+    color: #212529;
+}
+.icons:hover{
+    color: #004E89;
+}
