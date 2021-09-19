@@ -378,33 +378,29 @@
             <a href="mailto:office@sinovillemc.co.za"><em>Email:</em> office@sinovillemc.co.za</a>
         </div>
         <div class="col-md-6 col-sm-12 pt-5">
-            <form name='contact' method='POST' data-netlify="true">
+            <form name='contact' method='POST'>
+                <input type="hidden" name="form-name" value="contact">
                 <fieldset>
                 <div class="form-group">
-                    <!-- svelte-ignore a11y-label-has-associated-control -->
-                    <label>Name</label>
-                    <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter your name" name="name">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter your name" id="name" name="name">
                 </div>
                 <div class="form-group">
-                    <!-- svelte-ignore a11y-label-has-associated-control -->
-                    <label>Surname</label>
-                    <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter your surname" name="surname">
+                    <label for="surname">Surname</label>
+                    <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter your surname" id="surname" name="surname">
                 </div>
                 <div class="form-group">
-                    <!-- svelte-ignore a11y-label-has-associated-control -->
-                    <label>Email address</label>
-                    <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Enter your email" name="email">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Enter your email" id="email" name="email">
                     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                 </div>
                 <div class="form-group">
-                    <!-- svelte-ignore a11y-label-has-associated-control -->
-                    <label>Subject</label>
-                    <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter your subject" name="subject">
+                    <label for="subject">Subject</label>
+                    <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Enter your subject" id="subject" name="subject">
                 </div>
                 <div class="form-group">
-                    <!-- svelte-ignore a11y-label-has-associated-control -->
-                    <label>Your message...</label>
-                    <textarea name="message" class="form-control" id="exampleTextarea" rows="8"></textarea>
+                    <label for="msg">Your message...</label>
+                    <textarea name="message" class="form-control" id="msg" rows="8"></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary submit">Submit</button>
                 </fieldset>
