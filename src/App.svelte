@@ -45,7 +45,7 @@
 <div id="parallax" class="jumbotron" style="background-image: url('/images/banner.webp');">
     <div class="row p-5">
         <div class="col-12 pt-5 pb-5 mb-5">
-            <h1 class="display-3">A Welcoming Familiy of Worship, Fellowship, and Servanthood</h1>
+            <h1 class="display-3">A Welcoming Family of Worship, Fellowship, and Servanthood</h1>
         </div>
     </div>
 </div>
@@ -90,7 +90,7 @@
     <h1 class="mt-5">GROUPS</h1>
     <h3 class="mb-5 about">Weekly activities</h3>
     <div class="row  mb-5">
-        <div class="col-md-4 col-sm-12 text-center">
+        <!-- <div class="col-md-4 col-sm-12 text-center">
             <div class="card" style="width: 20rem;">
                     <img class="card-img-top" src="/images/bible.webp" alt="Card cap" />
                 <div class="card-body">
@@ -101,6 +101,17 @@
                         the Church” and reading material will be distributed before the time for everyone to read. An audio
                         file of the online session will also be shared for those people who cannot join one of the other
                         options. (All COVID protocols will be adhered to in the Church)</p>
+                </div>
+            </div>
+        </div> -->
+        <div class="col-md-4 col-sm-12 text-center">
+            <div class="card" style="width: 20rem;">
+                    <img class="card-img-top" src="/images/sunday_school.webp" alt="Card cap">
+                <div class="card-body">
+                    <h5 class="card-title">Sunday School</h5>
+                    <h6 class="card-title">Sundays @ 7:30 (online)</h6>
+                    <p class="card-text">From little children to Gr 7</p>
+                    <p class="card-text">We share God's word and love with fun and laughter.</p>
                 </div>
             </div>
         </div>
@@ -127,17 +138,6 @@
     </div>
     <!-- Second row -->
     <div class="row  mb-5">
-        <div class="col-md-4 col-sm-12 text-center">
-            <div class="card" style="width: 20rem;">
-                    <img class="card-img-top" src="/images/sunday_school.webp" alt="Card cap">
-                <div class="card-body">
-                    <h5 class="card-title">Sunday School</h5>
-                    <h6 class="card-title">Sundays @ 7:30 (online)</h6>
-                    <p class="card-text">From little children to Gr 7</p>
-                    <p class="card-text">We share God's word and love with fun and laughter.</p>
-                </div>
-            </div>
-        </div>
         <!-- <div class="col-md-4 col-sm-12 text-center">
             <div class="card" style="width: 20rem;">
                 <img class="card-img-top" src="coffee.webp" alt="Card image cap">
