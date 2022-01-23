@@ -42,10 +42,10 @@
     </div>
 </nav>
 
-<div id="parallax" class="jumbotron" style="background-image: url('/images/banner.webp');">
+<div id="parallax" class="jumbotron" style="background-image: url('/images/banner-img.jpeg');">
     <div class="row p-5">
         <div class="col-12 pt-5 pb-5 mb-5">
-            <h1 class="display-3">A Welcoming Family of Worship, Fellowship, and Servanthood</h1>
+            <h1 style="color: antiquewhite; text-shadow: 3px 4px #000;" class="display-3">A Welcoming Family of Worship, Fellowship, and Servanthood</h1>
         </div>
     </div>
 </div>
@@ -61,26 +61,28 @@
                     <h2>8:30</h2>
                     <h4 class="pt-3">Online and on-site service</h4>
                 </div>
-                <div class="col-md-4 col-sm-12">
+                <div class="col-md-4 col-sm-12 text-center">
                     <i class="fas fa-church fa-10x"></i>
                 </div>
-                <div class="col-md-4 col-sm-12">
+                <div class="col-md-4 col-sm-12 text-center">
                     <h2>7:30</h2>
-                    <h4>Online Sunday School</h4>
+                    <h4>Sunday School</h4>
                     <br>
-                    <h2>9:30</h2>
-                    <h4>Online Teen Church </h4>
+                    <h2>8:30</h2>
+                    <h4>Teen Church </h4>
                 </div>
             </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-6 col-sm-6 text-center">
-            <a href="https://drive.google.com/drive/folders/1M4JcYdRS-ZD2_7LHNUqGJ4iRyBL4fxVu?usp=sharing " target="_blank"><i class="fab fa-google-drive fa-4x icons"></i></a>
-            <br><br>
-            <p><strong>Weekly notices</strong></p>
+    <div class="row justify-content-center">
+        <div class="col-md-4 col-sm-6 text-center">
+            <div>
+                <a href="https://drive.google.com/drive/folders/1M4JcYdRS-ZD2_7LHNUqGJ4iRyBL4fxVu?usp=sharing " target="_blank"><i class="fab fa-google-drive fa-4x icons"></i></a>
+                <br><br>
+                <p><strong>Weekly notices</strong></p>
+            </div>
         </div>
-        <div class="col-md-6 col-sm-6 text-center">
+        <div class="col-md-4 col-sm-6 text-center">
             <a href="https://www.youtube.com/channel/UCS3KolbhflbyUfy8BI9F_vQ" target="_blank"><i class="fab fa-youtube fa-4x icons"></i></a>
             <br><br>
             <p id="groups"><strong>SMC YouTube Channel</strong></p>
@@ -89,22 +91,8 @@
     <!-- Groups -->
     <h1 class="mt-5">GROUPS</h1>
     <h3 class="mb-5 about">Weekly activities</h3>
-    <div class="row  mb-5">
-        <!-- <div class="col-md-4 col-sm-12 text-center">
-            <div class="card" style="width: 20rem;">
-                    <img class="card-img-top" src="/images/bible.webp" alt="Card cap" />
-                <div class="card-body">
-                    <h5 class="card-title">Bible Study Session</h5>
-                    <h6 class="card-title">Wednesdays, in person at church @ 9:00 - 10:00</h6>
-                    <h6 class="card-title">Wednesdays, online via Zoom @ 18:30 - 19:30</h6>
-                    <p class="card-text"><strong>Topic:</strong> Will be based on the book “Discipleship Path - Deepening your relationship with Christ and
-                        the Church” and reading material will be distributed before the time for everyone to read. An audio
-                        file of the online session will also be shared for those people who cannot join one of the other
-                        options. (All COVID protocols will be adhered to in the Church)</p>
-                </div>
-            </div>
-        </div> -->
-        <div class="col-md-4 col-sm-12 text-center">
+    <div class="row justify-content-center">
+        <div class="col-md-4 col-sm-12 text-center mb-5">
             <div class="card" style="width: 20rem;">
                     <img class="card-img-top" src="/images/sunday_school.webp" alt="Card cap">
                 <div class="card-body">
@@ -115,7 +103,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4 col-sm-12 text-center">
+        <div class="col-md-4 col-sm-12 text-center mb-5">
             <div class="card" style="width: 20rem;">
                     <img class="card-img-top" src="/images/cross.webp" alt="Card cap">
                 <div class="card-body">
@@ -125,7 +113,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4 col-sm-12 text-center">
+        <div class="col-md-4 col-sm-12 text-center mb-5">
             <div class="card" style="width: 20rem;">
                     <img class="card-img-top" src="/images/youth_group.webp" alt="Card cap">
                 <div class="card-body">
@@ -135,33 +123,21 @@
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Second row -->
-    <div class="row  mb-5">
-        <!-- <div class="col-md-4 col-sm-12 text-center">
-            <div class="card" style="width: 20rem;">
-                <img class="card-img-top" src="coffee.webp" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Coffee@7</h5>
-                    <h6 class="card-title">Fridays @ 19:00 (online)</h6>
-                    <p class="card-text">Current societal topics are also covered with a theological reflection. The session is open to everybody.</p>
-                </div>
-            </div>
-        </div> -->
-        <div class="col-md-4 col-sm-12 text-center">
+        <div class="col-md-4 col-sm-12 text-center mb-5">
             <div class="card" style="width: 20rem;">
                     <img class="card-img-top" src="/images/teen_church.webp" alt="Card cap">
                 <div class="card-body">
                     <h5 class="card-title">Teen Church</h5>
-                    <h6 class="card-title">Sundays @ 9:30 (online)</h6>
+                    <h6 class="card-title">Sundays @ 8:30</h6>
                     <p class="card-text">Teen church is a place to belong, a place where any student can be “Home”.</p>
                 </div>
             </div>
         </div>
     </div>
+
     <h3 class="mb-5 about">Monthly activities</h3>
-    <div class="row  mb-5">
-        <div class="col-md-4 col-sm-12 text-center">
+    <div class="row justify-content-center">
+        <div class="col-md-4 col-sm-12 text-center mb-5">
             <div class="card" style="width: 20rem;">
                     <img class="card-img-top" src="/images/feed.webp" alt="Card cap">
                 <div class="card-body">
@@ -171,7 +147,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4 col-sm-12 text-center">
+        <div class="col-md-4 col-sm-12 text-center mb-5">
             <div class="card" style="width: 20rem;">
                     <img class="card-img-top" src="/images/flowers2.webp" alt="Card cap">
                 <div class="card-body">
@@ -181,21 +157,20 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4 col-sm-12 text-center">
+        <div class="col-md-4 col-sm-12 text-center mb-5">
             <div class="card" style="width: 20rem;">
-                    <img class="card-img-top" src="/images/men.webp" alt="Card cap">
+                    <img class="card-img-top" src="/images/smml.png" alt="Card cap">
                 <div class="card-body">
                     <h5 class="card-title">Sinoville Methodist Men’s League (SMML)</h5>
                     <h6 class="card-title">Every 3rd Sunday of the month @ 10:30</h6>
                     <p class="card-text">Men of Faith that draw together through discipleship. Our motto: Each One – Reach One.</p>
-                    <a href="https://web.facebook.com/SMCMensFellowship" target="_blank"><i class="fab fa-facebook fa-2x icons"></i></a>
+                    <p>Our website: <a href="https://smml.co.za/" target="_blank">click here</a></p>
+                    <a href="https://web.facebook.com/SMCMensFellowship" target="_blank"><i class="fab fa-facebook fa-2x icons mr-3"></i></a>
+                    <a href="https://smml.co.za/" target="_blank"><i class="far fa-window-maximize fa-2x icons"></i></a>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Second row -->
-    <div class="row  mb-5">
-        <div class="col-md-4 col-sm-12 text-center">
+        <div class="col-md-4 col-sm-12 text-center mb-5">
             <div class="card" style="width: 20rem;">
                     <img class="card-img-top" src="/images/flowers.webp" alt="Card cap">
                 <div class="card-body">
@@ -205,7 +180,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4 col-sm-12 text-center">
+        <div class="col-md-4 col-sm-12 text-center mb-5">
             <div class="card" style="width: 20rem;">
                     <img class="card-img-top" src="/images/young_adults.webp" alt="Card cap">
                 <div class="card-body">
@@ -213,6 +188,16 @@
                     <h6 class="card-title">Every 4th Sunday of the month  @ 11:00</h6>
                     <p class="card-text">For young adults who are navigating life with God.</p>
                     <a href="https://web.facebook.com/Sinoville-Young-Adult-Movement-112136197217608" target="_blank"><i class="fab fa-facebook fa-2x icons"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-12 text-center mb-5">
+            <div class="card" style="width: 20rem;">
+                    <img class="card-img-top" src="/images/men.webp" alt="Card cap">
+                <div class="card-body">
+                    <h5 class="card-title">Women's Manyano</h5>
+                    <h6 class="card-title">Please contact the church office for meeting times.</h6>
+                    <p class="card-text"></p>
                 </div>
             </div>
         </div>
@@ -412,7 +397,7 @@
     </div>
 </div>
 
-<footer class="footer footer_look">
+<footer class="footer_look">
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-3 col-sm-6 col-xs-12 segment-one text-center pt-2">
@@ -431,16 +416,16 @@
                 <h3>Follow US</h3>
                 <div class="row text-center">
                     <div class="col-11">
-                        <a href="https://www.mychurchmanagement.org/Account/Login" target="_blank"><i class="fas fa-cross fa-3x"></i></a>
-                        <a href="https://www.facebook.com/Sinoville-Methodist-Church-159807964060665/" target="_blank"><i class="fab fa-facebook fa-3x"></i></a>
-                        <a href="https://www.youtube.com/channel/UCS3KolbhflbyUfy8BI9F_vQ" target="_blank"><i class="fab fa-youtube fa-3x"></i></a>
+                        <a href="https://www.mychurchmanagement.org/Account/Login" target="_blank"><i class="fas fa-cross fa-3x icons"></i></a>
+                        <a href="https://www.facebook.com/Sinoville-Methodist-Church-159807964060665/" target="_blank"><i class="fab fa-facebook fa-3x icons"></i></a>
+                        <a href="https://www.youtube.com/channel/UCS3KolbhflbyUfy8BI9F_vQ" target="_blank"><i class="fab fa-youtube fa-3x icons"></i></a>
                     </div>   
                 </div>
                 <div class="row text-center">
                     <div class="col-11">
-                        <a href="https://www.instagram.com/p/B_SEHjzlMJG/?igshid=af6a43r2q43o" target="_blank"><i class="fab fa-instagram fa-3x"></i></a>
-                        <a href="mailto:office@sinovillemc.co.za"><i class="far fa-envelope fa-3x"></i></a>
-                        <a href="https://www.facebook.com/Big-Hearts-Community-Care-1570626643249767/?ref=page_internal" target="_blank"><i class="far fa-heart fa-3x"></i></a>
+                        <a href="https://www.instagram.com/p/B_SEHjzlMJG/?igshid=af6a43r2q43o" target="_blank"><i class="fab fa-instagram fa-3x icons"></i></a>
+                        <a href="mailto:office@sinovillemc.co.za"><i class="far fa-envelope fa-3x icons"></i></a>
+                        <a href="https://www.facebook.com/Big-Hearts-Community-Care-1570626643249767/?ref=page_internal" target="_blank"><i class="far fa-heart fa-3x icons"></i></a>
                     </div> 
                 </div>
             </div>
