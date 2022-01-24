@@ -42,7 +42,7 @@
     </div>
 </nav>
 
-<div id="parallax" class="jumbotron" style="background-image: url('/images/banner-img.jpeg');">
+<div id="parallax" class="jumbotron" style="background-image: url('https://cdn.statically.io/gh/wolfbyne/Sinoville/32da9c8/public/images/banner-img.jpeg');">
     <div class="row p-5">
         <div class="col-12 pt-5 pb-5 mb-5">
             <h1 style="color: antiquewhite; text-shadow: 3px 4px #000;" class="display-3">A Welcoming Family of Worship, Fellowship, and Servanthood</h1>
@@ -66,7 +66,7 @@
                 </div>
                 <div class="col-md-4 col-sm-12 text-center">
                     <h2>7:30</h2>
-                    <h4>Sunday School</h4>
+                    <h4>Online Sunday School</h4>
                     <br>
                     <h2>8:30</h2>
                     <h4>Teen Church </h4>
@@ -193,7 +193,7 @@
         </div>
         <div class="col-md-4 col-sm-12 text-center mb-5">
             <div class="card" style="width: 20rem;">
-                    <img class="card-img-top" src="/images/men.webp" alt="Card cap">
+                    <img class="card-img-top" src="/images/WomensManyano.png" alt="Card cap">
                 <div class="card-body">
                     <h5 class="card-title">Women's Manyano</h5>
                     <h6 class="card-title">Please contact the church office for meeting times.</h6>
