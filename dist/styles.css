@@ -5,6 +5,7 @@ body{
     background: rgb(98,136,207);
     background: linear-gradient(0deg, rgba(98,136,207,1) 0%, rgba(124,154,209,1) 16%, rgba(138,168,218,1) 32%, rgba(219,225,232,1) 89%);
 }
+
 ::-webkit-scrollbar {
 width: 16px;
 }
@@ -28,13 +29,13 @@ nav{
     border-bottom: 0.4vh solid #004E89;
 }
 a{
-    font-size: 20px;
+    font-size: 1.3em !important;
     color: #012646;
     cursor: pointer;
 }
 .navbar-brand{
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size: 40px;
+    /* font-family: 'Noto Sans JP', sans-serif;
+    font-size: 40px; */
     padding-left: 2rem;
 }
 h1,h4{
@@ -134,9 +135,6 @@ p{
 .card{
     background-color: inherit;
     border: 0;
-}
-#corona{
-    background-color: #6288CF;
 }
 #link{
     color: #004E89;
