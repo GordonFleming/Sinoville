@@ -6,20 +6,6 @@ body{
     background: linear-gradient(0deg, rgba(98,136,207,1) 0%, rgba(124,154,209,1) 16%, rgba(138,168,218,1) 32%, rgba(219,225,232,1) 89%);
 }
 
-::-webkit-scrollbar {
-width: 16px;
-}
-::-webkit-scrollbar-track {
-background: #f1f1f1;
-}
-::-webkit-scrollbar-thumb {
-background: #1f6986;
-border-radius: 10px;
-}
-::-webkit-scrollbar-thumb:hover {
-background: #004E89;
-}
-
 /* Nav */
 nav{
     background-color: #6288CF;
@@ -111,6 +97,7 @@ p{
 }
 .jumbotron{
     margin-bottom:0 !important;
+    border-bottom: 0.4vh solid #004E89;
 }
 .about:after{
     content: "";
